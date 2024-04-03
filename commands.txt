@@ -1,0 +1,27 @@
+
+npm i -g @nestjs/cli
+nest new
+nest generate controller / nest g co 
+
+Ctrl + shift + A comment / uncomment
+
+
+******* Tuesday Class ********** 
+
+// Install mongoose dependencies
+npm i mongoose @nestjs/mongoose
+
+/* Setup MongooseModule in AppModule */
+@Module({
+  imports: [
+    MongooseModule.forRoot('mongodb+srv://alberto:riwi@riwi.toyicbg.mongodb.net/'),
+  ],
+})
+export class AppModule {}
+
+MongooseModule.forRoot('mongodb+srv://alberto:riwi@riwi.toyicbg.mongodb.net/'),
+
+
+MongooseModule.forRoot('mongodb+srv://alberto:riwi@riwi.toyicbg.mongodb.net/miBaseDeDatos?retryWrites=true&w=majority'),
+
+MongooseModule.forRoot('mongodb+srv://alberto:riwi@riwi.toyicbg.mongodb.net/miBaseDeDatos/miColeccion?retryWrites=true&w=majority'),

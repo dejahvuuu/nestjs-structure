@@ -1,8 +1,13 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {}
+        "workspaces": {
+            "file:///home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Workspaces/1711976944792/workspace.json": "__default__profile__",
+            "file:///home/albertogalvis/Public/nestjsapp/nest-app": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1712056903471": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -14,10 +19,14 @@
                 "configURIPath": "file:///home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Workspaces/1711976944792/workspace.json"
             }
         ],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/albertogalvis/Public/nestjsapp/nest-app"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1711976916579"
+                "backupFolder": "1712056903471"
             }
         ]
     },
@@ -61,6 +70,56 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/albertogalvis/Public/nestjsapp/nest-app",
+                                        "path": "/home/albertogalvis/Public/nestjsapp/nest-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/albertogalvis/Public/nestjsapp/nest-app"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/albertogalvis/Public/nestjsapp/nest-app/commands.txt",
+                                        "path": "/home/albertogalvis/Public/nestjsapp/nest-app/commands.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/albertogalvis/Public/nestjsapp/nest-app/commands.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/albertogalvis/Public/nestjs/commands.txt",
+                                        "path": "/home/albertogalvis/Public/nestjs/commands.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/albertogalvis/Public/nestjs/commands.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/albertogalvis/Desktop/Nueva%20carpeta/data.txt",
+                                        "path": "/home/albertogalvis/Desktop/Nueva carpeta/data.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/albertogalvis/Desktop/Nueva carpeta/data.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -118,6 +177,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -254,7 +320,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Workspace"
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -450,8 +516,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1687,27 +1752,52 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "workspaceIdentifier": {
-                "id": "fb710f5528eaabfb6c16dd6ef55893f0",
-                "configURIPath": "file:///home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Workspaces/1711976944792/workspace.json"
-            },
-            "backupPath": "/home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Backups/fb710f5528eaabfb6c16dd6ef55893f0",
+            "folder": "file:///home/albertogalvis/Public/nestjsapp/nest-app",
+            "backupPath": "/home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Backups/1759b4121c158057b8ad7f856d58072e",
             "uiState": {
                 "mode": 0,
-                "x": 98,
-                "y": 75,
-                "width": 1416,
+                "x": -2,
+                "y": 84,
+                "width": 1024,
                 "height": 768,
-                "zoomLevel": 2
+                "zoomLevel": 3
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "workspaceIdentifier": {
+                    "id": "fb710f5528eaabfb6c16dd6ef55893f0",
+                    "configURIPath": "file:///home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Workspaces/1711976944792/workspace.json"
+                },
+                "backupPath": "/home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Backups/fb710f5528eaabfb6c16dd6ef55893f0",
+                "uiState": {
+                    "mode": 1,
+                    "x": 97,
+                    "y": 124,
+                    "width": 1691,
+                    "height": 768,
+                    "zoomLevel": 2
+                }
+            },
+            {
+                "folder": "file:///home/albertogalvis/Public/nestjsapp/nest-app",
+                "backupPath": "/home/albertogalvis/Public/nestjsapp/nest-app/~/.vscode-root/Backups/1759b4121c158057b8ad7f856d58072e",
+                "uiState": {
+                    "mode": 0,
+                    "x": -2,
+                    "y": 84,
+                    "width": 1024,
+                    "height": 768,
+                    "zoomLevel": 3
+                }
+            }
+        ]
     }
 }
